@@ -8,4 +8,4 @@ app.use(express.json());
 
 
 app.listen(process.env.PORT, 
-    x => console.log( ` API subiuu !! ${process.env.PORT} `, ));
+    x => console.log( ` API subiuu !! ${process.env.PORT}`));
