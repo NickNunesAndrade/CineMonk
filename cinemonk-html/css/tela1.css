@@ -20,8 +20,8 @@ a {
 }
 
 .ticket img {
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
@@ -29,10 +29,10 @@ a {
 .titulo {
     margin-bottom: 60px;
     color: #F0A124;
-    font-family: Roboto;
+    font-family: Seoul;
     font-weight: 400;
     font-size: 64px;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
 }
 
 .pergunta {
@@ -40,7 +40,7 @@ a {
     font-family: Roboto;
     color: #E1E1E1;
     font-size: 50px;
-    text-shadow: 1px 1px 4px rgba(202, 202, 202, 0.87);
+    text-shadow: 2px 2px 4px rgba(202, 202, 202, 0.87);
 }
 
 .botao {

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-image: url('../images/image 16.png');
+    background-position: -40px -250px;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ticket img {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.titulo {
+    color: #F0A124;
+    font-family: Seoul;
+    font-weight: 500;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+}
+
+.desc {
+    margin-top: 40px;
+    margin-left: 3.8em;
+    font-family: Roboto;
+    color: #E1E1E1;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(202, 202, 202, 0.87);
+}
+
+.boxes {
+    margin-top: 50px;
+    margin-left: 11em;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-grande {
+    background-color: #C60A0A;
+    box-shadow: 2px -2px 3px 2px rgba(11, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 3em;
+    padding-right: 8em;
+    padding-left: 8em;
+    padding-bottom: 6em;
+    margin-right: 60px;
+    height: 12em;
+    cursor: pointer;
+}
+
+.box-grande:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, 0.5);
+}
+
+.semana {
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.dia {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.mes {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.box-pequenos {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    background-color: #AA0A0A;
+    margin-right: 2em;
+    padding: 1.6em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box1:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, 0.5);
+}
+
+.pequeno-1 {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 20px;
+}
+
+.pequeno-2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.semana-1 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.dia-1 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.mes-1 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box1-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #AA0A0A;
+    margin-right: 1.8em;
+    padding: 1.6em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box1-1:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, 0.5);
+}
