@@ -97,6 +97,11 @@ body {
     cursor: pointer;
 }
 
+.box1:nth-child(2) {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .box1:hover {
     transition: 0.5s;
     box-shadow: 1px 1px 20px 20px rgba(255, 255, 255, 0.5);
@@ -119,6 +124,8 @@ body {
     font-family: Roboto;
     font-weight: 400;
     font-size: 24px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .dia-1 {
@@ -145,6 +152,11 @@ body {
     padding-right: 2.4em;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.box1-1:nth-child(2) {
+    padding-left: 1.8em;
+    padding-right: 1.8em;
 }
 
 .box1-1:hover {
