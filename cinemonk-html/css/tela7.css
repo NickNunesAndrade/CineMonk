@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0px;
+    background-image: url('../images/image 16.png');
+    background-position: -40px -250px;
+    color: white;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.ticket {
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+
+.titulo {
+    font-size: 60px;
+    color: #F0A124;
+    font-family: Seoul;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+.texto {
+    font-size: 36px;
+    font-family: Share Tech;
+    color: #E1E1E1;
+    text-shadow: 1px 1px 4px rgba(202, 202, 202, 0.87);
+    width: 20em;
+    margin-left: 8em;
+}
+
+.ingressos {
+    display: flex;
+    flex-direction: row;
+}
+
+.tickets1 {
+}
