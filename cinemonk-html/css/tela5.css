@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0px;
+    background-image: url('../images/image 16.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2em;
+}
+
+.ticket img {
+    height: 80px;
+    width: 80px;
+    margin-right: 30px;
+}
+
+.titulo {
+    font-size: 60px;
+    color: #F0A124;
+    font-family: Seoul;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    margin-right: 80px;
+}
+
+.texto {
+    margin-top: 10px;
+    font-size: 48px;
+    font-family: Share Tech;
+    color: #E1E1E1;
+    text-shadow: 1px 1px 4px rgba(202, 202, 202, 0.87);
+}
+
+.cadeiras {
+    display: flex;
+    flex-direction: row;
+}
+
+.lugares {
+    background: rgba(198, 198, 198, 0.9);
+    box-shadow: 2px -2px 3px 2px rgba(11, 0, 0, 0.25), inset 0px 0px 8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 16px 0px;
+    padding: 2em;
+    margin-left: 8em;
+}
+
+.conjunto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.conjunto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 85px;
+}
+
+.conjunto3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 58px;
+}
+
+.conjunto-meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+
+}
+
+.conjunto-meio2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 85px;
+}
+
+.conjunto-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fileira {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.letra {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+.cad {
+    margin-right: 10px;
+}
+
+.cade {
+    margin-right: 10px;
+    background: url('../images/cadeira-red.png');
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 50px;
+    width: 50px;
+}

@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * { box-sizing: border-box; }
 
 body {
     margin: 0px;
     background-image: url('../images/image 16.png');
-    background-position: -40px -250px;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
     color: white;
 }
 
@@ -42,4 +46,97 @@ body {
 }
 
 .tickets1 {
+    margin-top: 30px;
+    background: url("../images/ticket.png");
+    background-size: 400px 400px;
+    background-position: 40px -100px;
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 281px;
+}
+
+.sala {
+    margin-top: 35px;
+    margin-left: 175px;
+    font-family: Share Tech;
+    font-size: 18px;
+    color: #960404;
+}
+
+.data {
+    margin-top: 3px;
+    margin-left: 175px;
+    font-family: Share Tech;
+    font-size: 12px;
+    color: #373737;
+}
+
+.filme {
+    width: 8em;
+    margin-top: 5px;
+    margin-left: 175px;
+    font-family: Share Tech;
+    font-size: 20px;
+    color: black;
+}
+
+.horario {
+    margin-top: 10px;
+    margin-left: 175px;
+    font-family: Share Tech;
+    font-size: 18px;
+    color: #960404;
+}
+
+.tickets2 {
+    margin-top: 30px;
+    background: url("../images/ticket.png");
+    background-size: 400px 400px;
+    background-position: 40px -100px;
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 281px;    
+}
+
+.tickets3 {
+    margin-top: 30px;
+    background: url("../images/ticket.png");
+    background-size: 400px 400px;
+    background-position: 40px -100px;
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 281px;    
+}
+
+.tickets-final {
+    display: flex;
+    flex-direction: row;
+}
+
+.tickets {
+    background: url("../images/ticket.png");
+    background-size: 400px 400px;
+    background-position: 40px -100px;
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 281px;   
+}
+
+.botao button {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    margin-left: 350px;
+    margin-top: 2em;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 42px;
+    color: #767676;
+    outline: none;
+    border: none;
+    text-shadow: 0px 4px 10px rgba(108, 108, 108, 0.25);
+    background: radial-gradient(50% 50% at 50% 50%, #F4F4F4 0%, #C1C1C1 100%);
+    cursor: pointer;
 }
