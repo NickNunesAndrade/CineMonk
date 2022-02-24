@@ -63,11 +63,18 @@ body {
     margin-right: 60px;
 }
 
+.conjunto-cinza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 61px;
+}
+
 .conjunto2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 85px;
+    margin-right: 119px;
 }
 
 .conjunto3 {
@@ -89,7 +96,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right: 85px;
+    margin-right: 115px;
+}
+
+.conjunto-meio3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 68px;
 }
 
 .conjunto-final {
@@ -116,17 +130,147 @@ body {
     font-size: 28px;
 }
 
-.cad {
-    margin-right: 10px;
+.letra2 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
 }
 
-.cade {
+.letra3 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+.letra4 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+.letra5 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+.letra6 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+.letra7 {
+    background: #AA0A0A;
+    border-radius: 13px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 80px;
+    font-family: Spartan;
+    font-size: 28px;
+}
+
+
+.conjunto1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.cad-def {
+    margin-right: 10px;
+    background: url('../images/cadeira-azul.png');
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    padding: 1em;
+    font-family: Spartan;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.cad-def:nth-child(3) {
+    background-position: 1.5px 0px;
+}
+
+.cad-red {
     margin-right: 10px;
     background: url('../images/cadeira-red.png');
-    background-size: 35px 35px;
+    background-size: 45px 45px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    height: 50px;
-    width: 50px;
+    background-position: 1px 0px;
+    padding: 1em;
+    font-family: Spartan;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
 }
+
+.cad-red:nth-child(1) {
+    background-position: 2px 0px;
+}
+
+.cad-red:nth-child(3) {
+    background-position: 2px 0px;
+}
+
+.cad-red:nth-child(5) {
+    background-position: 0px 0px;
+}
+
+.cad-red:nth-child(6) {
+    background-position: -10px 0px;
+}
+
+.cad-cinza {
+    align-items: center;
+    margin-right: 10px;
+    background: url('../images/cadeira-cinza.png');
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: 1px 0px;
+    padding: 1em;
+    font-family: Spartan;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+}
+
+.cad-cinza:nth-child(5) {
+    background-position: 0px 1px;
+}
+
