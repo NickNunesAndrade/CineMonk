@@ -2,6 +2,6 @@
 
 export default function Home() {
     return (
-        <div>salveee</div>
+        <div>OIIII</div>
     );
 }
